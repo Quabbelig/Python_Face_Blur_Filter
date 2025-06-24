@@ -16,5 +16,7 @@ deutlich aufwendiger ist, vor allem wegen des Threadings und der Notwendigkeit z
 praktisch von Null beginnen müssen. Stattdessen habe ich mich dann dazu entschieden, meine Zeit lieber ins Debuggen und die Verbesserung der beiden vorhandenen Modi
 (Live & Bild) zu investieren.
 
-Insgesamt habe ich durch dieses Projekt nicht so viel dazu gelernt, ich hatte schon viel Vorwissen über Python und GUI-Entwicklung, ich habe zwar doch OpenCV gelernt, ich
-habe im Code kaum Kommentare, da ich alles in Funktionen habe, und sachen durch die FUnktionsnamen gefunden habe.
+Insgesamt habe ich durch dieses Projekt nicht alles neu gelernt, da ich bereits einiges an Vorwissen in Python und GUI-Entwicklung mitgebracht habe. Dennoch war es eine
+gute Übung, besonders im Umgang mit OpenCV.
+
+ Mein Code enthält kaum Kommentare, weil ich den Großteil der Logik sauber in Funktionen strukturiert habe und über die Funktionsnamen selbst gut navigieren konnte.
