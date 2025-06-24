@@ -12,7 +12,7 @@ A Python application that provides real-time face blurring capabilities with two
 
 ##  Prerequisites
 
-- Python 3.7 or higher (if possible python 3.12).
+- Python version 3.12 or higher (lower versions can work, but there's a high chance that there will be bugs. (I used 3.12))
 - A webcam (for live mode)
 - Compatible operating system (Windows, macOS, Linux)
 
@@ -127,7 +127,7 @@ The application requires the following Python packages:
 
 ## System Requirements
 
-- **Python**: 3.7 or higher (if possible python 3.12).
+- **Python**: 3.12 or higher (lower versions can work, but there's a high chance that there will be bugs. (I used 3.12))
 - **RAM**: 4GB minimum (8GB recommended for smooth performance).
 - **Camera**: Any camera, just has to have a decent resolution.
 - **OS**: Windows 10+, macOS 10.14+, or Linux with GUI support.
