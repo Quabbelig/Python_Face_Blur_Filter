@@ -44,22 +44,22 @@ python main.py
 1. Click **"Blur Picture"** in the main interface
 2. Select an image file ((supports `.jpg`, `.jpeg`, `.png`, `.bmp`)(make shure that the Image has a high enough reselution))
 3. Adjust the blur level using the slider (0-100%)
-4. Toggle detection boxes to see face detection confidence
+4. If interested, toggle detection boxes to see face detection and confidence
 5. Click **"Done"** when satisfied with the preview
-6. Choose to save the blurred image, exit without sacing or go back to make adjustments
+6. Choose to save the blurred image, exit without saving or go back to make adjustments
 
 ### Live Mode
 
 1. Click **"Blur Live (Webcam)"** in the main interface
-2. Adjust blur intensity in real-time using the slider
-3. Toggle detection boxes to visualize face detection
+2. Adjust the blur level using the slider (0-100%)
+3. If interested, toggle detection boxes to see face detection and confidence
 4. Press **ESC** to exit live mode
 
 ## Important Notes for Live Mode
 
 ### Camera Setup
 - **Ensure your desired camera is connected** to your PC before starting live mode
-- **Set your camera to the highest priority** in your system's camera settings, so that if you have multiple camera or camera emulation softwares, the one you want to use is set as the default/primary camera
+- **Set your camera to the highest priority** in your system's camera settings, so that if you have multiple cameras or camera emulation softwares, the one you want to use is set as the default/primary camera
 
 ### First-Time Setup
 - **Initial run may fail** due to camera permission requests
@@ -81,8 +81,8 @@ python main.py
 - **Exit**: Close the application
 
 ### Live Mode
-- **Slider**: Real-time blur intensity adjustment
-- **Checkbox**: Toggle detection visualization
+- **Slider**: Adjust blur intensity (0-100%)
+- **Checkbox**: Show/hide detection boxes and confidence scores
 - **ESC Key**: Exit live mode
 
 ## Technical Details
