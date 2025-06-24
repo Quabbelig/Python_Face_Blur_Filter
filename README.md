@@ -12,9 +12,10 @@ A Python application that provides real-time face blurring capabilities with two
 
 ##  Prerequisites
 
-- Python version 3.12 or higher (lower versions can work, but there's a high chance that there will be bugs. (I used 3.12))
-- A webcam (for live mode)
-- Compatible operating system (Windows, macOS, Linux)
+- **Python**: 3.12 or higher (lower versions can work, but there's a high chance that there will be bugs. (I used 3.12)).
+- **RAM**: 4GB minimum (8GB recommended for smooth performance).
+- **Camera**: Any camera (has to have a decent resolution.)
+- **OS**: Windows 10+, macOS 10.14+, or Linux with GUI support.
 
 ##  Installation
 
@@ -67,8 +68,6 @@ python main.py
 
 ### Performance Tips
 - Close other applications that might be using your camera
-- Ensure good lighting for better face detection accuracy
-- The application uses fallback detection to maintain blur even when faces are temporarily not detected
 
 ## Controls
 
@@ -77,8 +76,8 @@ python main.py
 - **Checkbox**: Show/hide detection boxes and confidence scores
 - **Done**: Finalize settings and proceed to save options
 - **Back**: Return to adjustment mode
-- **Save**: Export the blurred image
-- **Exit**: Close the application
+- **Save**: Save the blurred image
+- **Exit**: Close the application without saving
 
 ### Live Mode
 - **Slider**: Adjust blur intensity (0-100%)
@@ -100,18 +99,18 @@ python main.py
    - Check if your camera is properly connected
    - Ensure no other applications are using the camera
    - Try running the application as administrator
+   - This is normal on first run due to camera permissions (simply run it again, after granting Permission)
 
 2. **Program closes immediately in live mode:**
-   - This is normal on first run due to camera permissions
-   - Simply restart the application
+   - This is normal on first run due to camera permissions (simply run it again, after granting Permission)
 
 3. **Poor face detection:**
-   - Ensure adequate lighting
-   - Position your face clearly in the camera view
-   - The application includes fallback detection for temporary detection failures
+   - Ensure decent Picture/Camera resolution.
+   - Ensure decent lighting in Picture/Room.
+   - Ensure that Face/Faces are clearly in frame.
 
-4. **Installation issues:**
-   - Make sure you have Python 3.7+ installed
+5. **Installation issues:**
+   - Make sure you have Python 3.12+ installed (lower versions can work, but there's a high chance that there will be bugs. (I used 3.12)).
    - Try upgrading pip:
    ```bash
    pip install --upgrade pip
@@ -127,9 +126,9 @@ The application requires the following Python packages:
 
 ## System Requirements
 
-- **Python**: 3.12 or higher (lower versions can work, but there's a high chance that there will be bugs. (I used 3.12))
+- **Python**: 3.12 or higher (lower versions can work, but there's a high chance that there will be bugs. (I used 3.12)).
 - **RAM**: 4GB minimum (8GB recommended for smooth performance).
-- **Camera**: Any camera, just has to have a decent resolution.
+- **Camera**: Any camera (has to have a decent resolution.)
 - **OS**: Windows 10+, macOS 10.14+, or Linux with GUI support.
 
 ## Contributing
