@@ -128,7 +128,7 @@ python main.py
 
 ## Contributing
 
-Feel free to fork this repository and submit pull requests for improvements or bug fixes.
+Feel free to fork this repository and submit pull requests for improvements or bug fixes (Contributing file in the makin).
 
 ## License
 
