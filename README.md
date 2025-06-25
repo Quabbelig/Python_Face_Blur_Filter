@@ -43,7 +43,7 @@ python main.py
 ### Picture Mode
 
 1. Click **"Blur Picture"** in the main interface
-2. Select an image file ((supports `.jpg`, `.jpeg`, `.png`, `.bmp`)(make shure that the Image has a high enough reselution))
+2. Select an image file ((supports `.jpg`, `.jpeg`, `.png`, `.bmp`)(make shure that the Image has a decent reselution))
 3. Adjust the blur level using the slider (0-100%)
 4. If interested, toggle detection boxes to see face detection and confidence
 5. Click **"Done"** when satisfied with the preview
