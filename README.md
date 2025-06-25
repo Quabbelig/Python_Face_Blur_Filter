@@ -12,10 +12,17 @@ A Python application that provides real-time face blurring capabilities with two
 
 ##  Prerequisites
 
-- **Python**: 3.12 or higher (lower versions can work, but there's a high chance that there will be bugs. (I used 3.12)).
+- **Python**: 3.12 or higher (older versions may cause bugs, but I didn't test it. (I used 3.12)).
 - **RAM**: 4GB minimum (8GB recommended for smooth performance).
 - **Camera**: Any camera (has to have a decent resolution.)
 - **OS**: Windows 10+, macOS 10.14+, or Linux with GUI support.
+
+## Dependencies
+
+The application requires the following Python packages:
+- `opencv-python`
+- `cvzone`
+- `tkinter` (usually included with Python)
 
 ##  Installation
 
@@ -43,24 +50,24 @@ python main.py
 ### Picture Mode
 
 1. Click **"Blur Picture"** in the main interface
-2. Select an image file ((supports `.jpg`, `.jpeg`, `.png`, `.bmp`)(make shure that the Image has a decent reselution))
-3. Adjust the blur level using the slider (0-100%)
-4. If interested, toggle detection boxes to see face detection and confidence
+2. Select an image file ((supports `.jpg`, `.jpeg`, `.png`, `.bmp`)(make shure that the image has a decent reselution))
+3. Adjust the blur level using the **"Slider"** or the **"Box"** (0-100%)
+4. If interested, toggle the **"Show detection box and confidence"** box to show detection box and confidence level.
 5. Click **"Done"** when satisfied with the preview
-6. Choose to save the blurred image, exit without saving or go back to make adjustments
+6. Click **"Save"** to save the blurred image, **"Exit"** to exit without saving or **"Back"** to go back to make adjustments
 
 ### Live Mode
 
 1. Click **"Blur Live (Webcam)"** in the main interface
-2. Adjust the blur level using the slider (0-100%)
-3. If interested, toggle detection boxes to see face detection and confidence
-4. Press **ESC** to exit live mode
+3. Adjust the blur level using the **"Slider"** or the **"Box"** (0-100%)
+4. If interested, toggle the **"Show detection box and confidence"** box to show detection box and confidence level.
+5. Press your **"esc"** button to exit live mode
 
 ## Important Notes for Live Mode
 
 ### Camera Setup
 - **Ensure your desired camera is connected** to your PC before starting live mode
-- **Set your camera to the highest priority** in your system's camera settings, so that if you have multiple cameras or camera emulation softwares, the one you want to use is set as the default/primary camera
+- **Set your camera to the highest priority** in your system's camera settings, so that if you have multiple cameras or camera emulation software, the one you want to use is set as the default/primary camera
 
 ### First-Time Setup
 - **Initial run may fail** due to camera permission requests
@@ -101,7 +108,7 @@ python main.py
    - Try running the application as administrator
    - This is normal on first run due to camera permissions (simply run it again, after granting Permission)
 
-2. **Program closes immediately in live mode:**
+2. **Program closes immediately, without any error in live mode:**
    - This is normal on first run due to camera permissions (simply run it again, after granting Permission)
 
 3. **Poor face detection:**
@@ -110,26 +117,12 @@ python main.py
    - Ensure that Face/Faces are clearly in frame.
 
 5. **Installation issues:**
-   - Make sure you have Python 3.12+ installed (lower versions can work, but there's a high chance that there will be bugs. (I used 3.12)).
+   - Make sure you have Python 3.12 or higher (older versions may cause bugs, but I didn't test it. (I used 3.12)).
    - Try upgrading pip:
    ```bash
    pip install --upgrade pip
    ```
    - Install dependencies individually if batch installation fails
-
-## Dependencies
-
-The application requires the following Python packages:
-- `opencv-python`
-- `cvzone`
-- `tkinter` (usually included with Python)
-
-## System Requirements
-
-- **Python**: 3.12 or higher (lower versions can work, but there's a high chance that there will be bugs. (I used 3.12)).
-- **RAM**: 4GB minimum (8GB recommended for smooth performance).
-- **Camera**: Any camera (has to have a decent resolution.)
-- **OS**: Windows 10+, macOS 10.14+, or Linux with GUI support.
 
 ## Contributing
 
@@ -139,6 +132,6 @@ Feel free to fork this repository and submit pull requests for improvements or b
 
 This project is open source. Please check the repository for license details.
 
-## If anyones interested in how I made it:
+## If anyone's interested in how I made it:
 
 - [Entwicklungsprozess](./Entwicklungsprozess.md)
