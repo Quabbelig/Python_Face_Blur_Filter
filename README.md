@@ -133,7 +133,3 @@ Feel free to fork this repository and submit pull requests for improvements or b
 ## License
 
 This project is open source. Please check the repository for license details.
-
-## If anyone's interested in how I made it:
-
-- [Entwicklungsprozess](./Entwicklungsprozess.md)
